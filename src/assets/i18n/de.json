@@ -1,0 +1,28 @@
+{
+  "navi": {
+    "raspberry-overview": "Raspberry-Übersicht",
+    "sensor-overview": "Sensor-Übersicht"
+  },
+  "raspberry-overview": {
+    "yourModelIsA": "Ihr Model ist ein",
+    "currentValue": "Aktueller Wert",
+    "information": "Information über",
+    "cpuTemperatur" : "Prozessor Temperatur",
+    "cpuModel": "Prozessor Model",
+    "cores": "Anzahl Kerne",
+    "currentFrequence": "Aktuelle Frequenz",
+    "maxFrequence": "Maximale Frequenz",
+    "minFrequence": "Minimale Frequenz",
+    "ramTotal": "Totaler Arbeitsspeicher",
+    "ramFree": "Freier Arbeitsspeicher",
+    "ramUsed": "Belegter Arbeitsspeicher RAM",
+    "storageTotal": "Totaler Festplattenspeicher",
+    "storageFree": "Freier Festplattenspeicher",
+    "storageUsed": "Belegter Festplattenspeicher",
+    "numberOfCores" : "vier"
+
+  },
+  "sensor-overview": {
+    "title": "sensors-overview arbeitet"
+  }
+}
