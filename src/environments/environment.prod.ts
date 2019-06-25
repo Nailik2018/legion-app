@@ -1,5 +1,6 @@
 
-const baseUrl = 'http://192.168.0.26/legion-webapp/dist';
+const baseUrl = window.location.protocol + '//' + window.location.hostname +
+    (window.location.port ? ':' + window.location.port : '') + '/legion-webapp/';
 export const environment = {
     production: true,
     baseUrl: baseUrl,
