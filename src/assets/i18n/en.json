@@ -26,5 +26,10 @@
   },
   "sensor-overview": {
     "title": "sensors-overview works"
+  },
+  "card-component": {
+    "cpu": "Processor",
+    "core": "Number of cores",
+    "cpuTemperature": "CPU Temperature"
   }
 }

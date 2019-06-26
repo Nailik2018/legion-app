@@ -4,9 +4,9 @@
     </div>
     <div class="card-component-footer">
         <ul *ngIf="type === 'cpu'">
-            <li>Prozessor: {{ info1 | slice: 0:15 }}</li>
-            <li>Anzahl Kerne: {{ info2 }} </li>
-            <li>CPU Temperatur: {{ info3 }}</li>
+            <li>{{ 'card-component.cpu' | translate }}: {{ info1 | slice: 0:15 }}</li>
+            <li>{{ 'card-component.core' | translate }}: {{ info2 }} </li>
+            <li>{{ 'card-component.cpuTemperature' | translate }}: {{ info3 }}</li>
         </ul>
         <ul *ngIf="type === 'ram'">
             <li>Arbeitspeicher total: {{ info1 }}</li>
