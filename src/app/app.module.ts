@@ -11,13 +11,15 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { environment } from '../environments/environment';
+import { ComputerOverviewComponent } from './pages/computer-overview/computer-overview.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavbarComponent,
         RaspiOverviewComponent,
-        SensorsOverviewComponent
+        SensorsOverviewComponent,
+        ComputerOverviewComponent
     ],
     imports: [
         BrowserModule,

@@ -1,7 +1,8 @@
 {
   "navi": {
     "raspberry-overview": "Raspberry-Übersicht",
-    "sensor-overview": "Sensor-Übersicht"
+    "sensor-overview": "Sensor-Übersicht",
+    "computer-overview": "Computer-Übersicht"
   },
   "raspberry-overview": {
     "yourModelIsA": "Ihr Model ist ein",
