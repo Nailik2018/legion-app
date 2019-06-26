@@ -10,12 +10,11 @@ export class Computer {
         ramTotal: string;
         ramUsed: string;
         ramFree: string;
-        storagTotal: string;
-        storagUsed: string;
-        storagFree: string;
+        storageTotal: string;
+        storageUsed: string;
+        storageFree: string;
     }
     cpuSVG: string;
     ramSVG: string;
     storageSVG: string;
 }
-

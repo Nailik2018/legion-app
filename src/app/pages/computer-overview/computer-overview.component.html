@@ -1,10 +1,7 @@
 
 <br>
 <div class="container">
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
+    <app-card [svgImage]="computer?.cpuSVG" [type]="cpu" [info1]="computer?.computerInformations.cpuModel" [info2]="computer?.computerInformations.cpuCores" [info3]="computer?.computerInformations.cpuTemperature"></app-card>
+    <app-card [svgImage]="computer?.ramSVG" [type]="ram" [info1]="computer?.computerInformations.ramTotal" [info2]="computer?.computerInformations.ramUsed" [info3]="computer?.computerInformations.ramFree"></app-card>
+    <app-card [svgImage]="computer?.storageSVG" [type]="storage" [info1]="computer?.computerInformations?.storageTotal" [info2]="computer?.computerInformations.storageUsed" [info3]="computer?.computerInformations.storageFree"></app-card>
 </div>

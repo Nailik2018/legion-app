@@ -1,12 +1,23 @@
 <div class="card-component">
     <div class="card-component-header">
-        <img src="../../../assets/images/cpu.svg">
+        <img [src]="image">
     </div>
     <div class="card-component-footer">
-        <ul>
-            <li>Prozessor: Intel blabla Core 7</li>
-            <li>Anzahl Kerne: 4</li>
-            <li>CPU Temperatur: 89°C</li>
+        <ul *ngIf="type === 'cpu'">
+            <li>Prozessor: {{ info1 | slice: 0:15 }}</li>
+            <li>Anzahl Kerne: {{ info2 }} </li>
+            <li>CPU Temperatur: {{ info3 }}</li>
         </ul>
+        <ul *ngIf="type === 'ram'">
+            <li>Arbeitspeicher total: {{ info1 }}</li>
+            <li>Arbeitsspeicher benutzt: {{ info2 }} </li>
+            <li>Arbeitsspeicher frei: {{ info3 }} </li>
+        </ul>
+        <ul *ngIf="type === 'storage'">
+            <li>Festplatzenspeicher total: {{ info1 }}</li>
+            <li>Festplatzenspeicher benutzt: {{ info2 }} </li>
+            <li>Festplatzenspeicher frei: {{ info3 }} </li>
+        </ul>
+
     </div>
 </div>
