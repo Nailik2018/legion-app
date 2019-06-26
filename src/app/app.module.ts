@@ -12,6 +12,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { environment } from '../environments/environment';
 import { ComputerOverviewComponent } from './pages/computer-overview/computer-overview.component';
+import { CardComponent } from './pages/computer-overview/card/card.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import { ComputerOverviewComponent } from './pages/computer-overview/computer-ov
         NavbarComponent,
         RaspiOverviewComponent,
         SensorsOverviewComponent,
-        ComputerOverviewComponent
+        ComputerOverviewComponent,
+        CardComponent
     ],
     imports: [
         BrowserModule,

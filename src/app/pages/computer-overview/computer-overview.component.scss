@@ -1,0 +1,11 @@
+.container{
+  height: 100vh;
+  width: 960px;
+  background-color: #C8C8C8;
+}
+
+@media screen and (max-width: 960px) {
+  .container{
+    width: 100vw;
+  }
+}
