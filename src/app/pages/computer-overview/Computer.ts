@@ -17,4 +17,5 @@ export class Computer {
     cpuSVG: string;
     ramSVG: string;
     storageSVG: string;
+    systemSVG: string;
 }

@@ -1,6 +1,6 @@
 <div class="card-component">
     <div class="card-component-header">
-        <img [src]="image">
+        <img draggable="false" [src]="image">
     </div>
     <div class="card-component-footer">
         <ul *ngIf="type === 'cpu'">
@@ -17,6 +17,12 @@
             <li>Festplatzenspeicher total: {{ info1 }}</li>
             <li>Festplatzenspeicher benutzt: {{ info2 }} </li>
             <li>Festplatzenspeicher frei: {{ info3 }} </li>
+        </ul>
+
+        <ul *ngIf="type === 'system'">
+            <li>MAC-Adresse: {{ info1 }}</li>
+            <li>Betriebssystem: {{ info2 }} </li>
+<!--            <li>Festplatzenspeicher frei: {{ info3 }} </li>-->
         </ul>
 
     </div>

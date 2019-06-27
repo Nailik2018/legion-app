@@ -14,6 +14,7 @@ export class ComputerOverviewComponent implements OnInit {
     cpu: string = 'cpu';
     ram: string = 'ram';
     storage: string = 'storage';
+    system: string = 'system';
 
     constructor(computerInformationsService: ComputerInformationsService) {
         this.computerInformationsService = computerInformationsService;
