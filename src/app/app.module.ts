@@ -11,8 +11,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { environment } from '../environments/environment';
-import { ComputerOverviewComponent } from './pages/computer-overview/computer-overview.component';
-import { CardComponent } from './pages/computer-overview/card/card.component';
+import { ComputerOverviewModule } from "./pages/computer-overview/computer-overview.module";
 
 @NgModule({
     declarations: [
@@ -20,8 +19,6 @@ import { CardComponent } from './pages/computer-overview/card/card.component';
         NavbarComponent,
         RaspiOverviewComponent,
         SensorsOverviewComponent,
-        ComputerOverviewComponent,
-        CardComponent
     ],
     imports: [
         BrowserModule,
@@ -34,7 +31,8 @@ import { CardComponent } from './pages/computer-overview/card/card.component';
                 deps: [HttpClient]
             }
         }),
-        FormsModule
+        FormsModule,
+        ComputerOverviewModule
     ],
     providers: [],
     bootstrap: [AppComponent]
