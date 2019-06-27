@@ -7,15 +7,22 @@ export class Computer {
         cpuCurrentFrequence: string;
         cpuMaxFrequence: string;
         cpuMinFrequence: string;
-        ramTotal: string;
-        ramUsed: string;
-        ramFree: string;
-        storageTotal: string;
-        storageUsed: string;
-        storageFree: string;
+        ramTotal: number;
+        ramUsed: number;
+        ramFree: number;
+        storageTotal: number;
+        storageUsed: number;
+        storageFree: number;
+        operatingSystem: string;
+        lanMacAddress: string;
+        wlanMacAddress: string;
+        ssid: string;
+        lanIpAddress: string;
+        wlanIpAddress: string;
     }
     cpuSVG: string;
     ramSVG: string;
     storageSVG: string;
     systemSVG: string;
+    networkSVG: string;
 }
