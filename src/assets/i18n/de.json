@@ -21,7 +21,6 @@
     "storageFree": "Freier Festplattenspeicher",
     "storageUsed": "Belegter Festplattenspeicher",
     "numberOfCores" : "vier"
-
   },
   "sensor-overview": {
     "title": "sensors-overview arbeitet"
@@ -29,6 +28,18 @@
   "card-component": {
     "cpu": "Prozessor",
     "core": "Anzahl Kerne",
-    "cpuTemperature": "CPU Temperatur"
+    "cpuTemperature": "CPU Temperatur",
+    "cpuCurrentFrequence": "Aktuelle Taktrate",
+    "cpuMaxFrequence": "Maximale Taktrate",
+    "cpuMinFrequence": "Minimale Taktrate",
+    "ram": "Arbeitsspeicher",
+    "ramUsed": "Auslastung",
+    "hardDisk": "Festplatte",
+    "hardDiskUsed": "Belegter Festplattenspeicher",
+    "hardDiskFree": "Freier Festplatzenspeicher",
+    "operatingSystem": "Betriebssystem",
+    "macAddress": "MAC Adresse",
+    "ssid": "SSID",
+    "ipAddress": "IP Adresse"
   }
 }

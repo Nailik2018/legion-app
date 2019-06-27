@@ -30,6 +30,18 @@
   "card-component": {
     "cpu": "Processor",
     "core": "Number of cores",
-    "cpuTemperature": "CPU Temperature"
+    "cpuTemperature": "CPU Temperature",
+    "cpuCurrentFrequence": "Current clock rate",
+    "cpuMaxFrequence": "Max clock rate",
+    "cpuMinFrequence": "Min clock rate",
+    "ram": "Memory",
+    "ramUsed": "Workload",
+    "hardDisk": "Hard disk",
+    "hardDiskUsed": "Occupied hard disk space",
+    "hardDiskFree": "Free fixed space memory",
+    "operatingSystem": "Operating system",
+    "macAddress": "MAC Address",
+    "ssid": "SSID",
+    "ipAddress": "IP Address"
   }
 }

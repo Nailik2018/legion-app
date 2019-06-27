@@ -7,29 +7,29 @@
             <li>{{ 'card-component.cpu' | translate }}: {{ info1 | slice: 0:15 }}</li>
             <li>{{ 'card-component.core' | translate }}: {{ info2 }} </li>
             <li>{{ 'card-component.cpuTemperature' | translate }}: {{ info3 }}</li>
-            <li>Aktuelle Frequenz: {{ info4 / 1000000 }} MHz</li>
-            <li>Maximale Frequenz: {{ info5 / 1000000 }} MHz</li>
-            <li>Minimale Frequenz: {{ info6 / 1000000 }} MHz</li>
+            <li>{{ 'card-component.cpuCurrentFrequence' | translate }}: {{ info4 / 1000000 }} MHz</li>
+            <li>{{ 'card-component.cpuMaxFrequence' | translate }}: {{ info5 / 1000000 }} MHz</li>
+            <li>{{ 'card-component.cpuMinFrequence' | translate }}: {{ info6 / 1000000 }} MHz</li>
         </ul>
         <ul *ngIf="type === 'ram'">
-            <li>Arbeitspeicher total: {{ info1 / 1000000000 | number:'1.0-0' }} GB</li>
-            <li>Arbeitsspeicher benutzt: {{ (100 * info2 / (info1 )) | number:'1.1-1' }} %</li>
+            <li>{{ 'card-component.ram' | translate }}: {{ info1 / 1000000000 | number:'1.0-0' }} GB</li>
+            <li>{{ 'card-component.ramUsed' | translate }}: {{ (100 * info2 / (info1 )) | number:'1.1-1' }} %</li>
         </ul>
         <ul *ngIf="type === 'storage'">
-            <li>Festplatzenspeicher total: {{ info1 / 1000000000 }} GB</li>
-            <li>Festplatzenspeicher benutzt: {{info2 / 1000000000 }} GB </li>
-            <li>Festplatzenspeicher frei: {{ info3 / 1000000000 }} GB </li>
-            <li>Festplatzenspeicher benutzt: {{ (100 * info2 / (info1 )) | number:'1.1-1' }} %</li>
+            <li>{{ 'card-component.hardDisk' | translate }}: {{ info1 / 1000000000 }} GB</li>
+            <li>{{ 'card-component.hardDiskUsed' | translate }}: {{info2 / 1000000000 }} GB </li>
+            <li>{{ 'card-component.hardDiskFree' | translate }}: {{ info3 / 1000000000 }} GB </li>
+            <li>{{ 'card-component.hardDiskUsed' | translate }}: {{ (100 * info2 / (info1 )) | number:'1.1-1' }} %</li>
         </ul>
         <ul *ngIf="type === 'system'" class="system">
-            <li>Betriebssystem: {{ info1 }}</li>
-            <li>MAC Adresse LAN: {{ info2 }} </li>
-            <li>MAC Adresse WLAN: {{ info3 }} </li>
+            <li>{{ 'card-component.operatingSystem' | translate }}: {{ info1 }}</li>
+            <li>{{ 'card-component.macAddress' | translate }} (LAN): {{ info2 }} </li>
+            <li>{{ 'card-component.macAddress' | translate }} (WLAN): {{ info3 }} </li>
         </ul>
         <ul *ngIf="type === 'network'">
-            <li>SSID: {{ info1 }}</li>
-            <li>IP-Adresse LAN: {{ info2 }} </li>
-            <li>IP-Adresse WLAN: {{ info3 }} </li>
+            <li>{{ 'card-component.ssid' | translate }}: {{ info1 }}</li>
+            <li>{{ 'card-component.ipAddress' | translate }} (LAN): {{ info2 }} </li>
+            <li>{{ 'card-component.ipAddress' | translate }} (WLAN): {{ info3 }} </li>
         </ul>
         </ul>
     </div>
