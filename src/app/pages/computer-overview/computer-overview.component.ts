@@ -21,10 +21,10 @@ export class ComputerOverviewComponent implements OnInit {
     lightBlue: string = '#40C0EF';
     darkRed: string = '#DA4453';
     lightRed: string = '#EF4A5B';
-    darkGreen: string = '#82B366';
-    lightGreen: string = '#B9E0A5';
-    darkYellow: string = '#FFD966';
-    lightYellow: string = '#FFE599';
+    darkGreen: string = '#4CAF50';
+    lightGreen: string = '#8BC34A';
+    darkYellow: string = '#ffdf24';
+    lightYellow: string = '#ffd008';
     darkPink: string = '#B5739D';
     lightPink: string = '#E793B2';
     lightOrange: string = '#FF871B';

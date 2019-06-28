@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {InjectionToken, NgModule} from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,7 +11,16 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { environment } from '../environments/environment';
-import { ComputerOverviewModule } from "./pages/computer-overview/computer-overview.module";
+import { ComputerOverviewModule } from './pages/computer-overview/computer-overview.module';
+import { APP_BASE_HREF } from '@angular/common';
+
+var meineUrl = '';
+
+if(window.location.hostname === 'localhost'){
+    meineUrl = '/';
+}else{
+    meineUrl = '/legion-webapp/dist/';
+}
 
 @NgModule({
     declarations: [
@@ -34,11 +43,14 @@ import { ComputerOverviewModule } from "./pages/computer-overview/computer-overv
         FormsModule,
         ComputerOverviewModule
     ],
-    providers: [],
+    providers: [
+        {provide: APP_BASE_HREF, useValue: meineUrl}
+    ],
     bootstrap: [AppComponent]
 })
 
 export class AppModule {
+    // const APP_BASE_HREF: InjectionToken<string>;
 }
 
 // required for AOT compilation
