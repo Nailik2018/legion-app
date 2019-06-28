@@ -40,6 +40,7 @@
     "operatingSystem": "Betriebssystem",
     "macAddress": "MAC Adresse",
     "ssid": "SSID",
-    "ipAddress": "IP Adresse"
+    "ipAddress": "IP Adresse",
+    "database": "Datenbank"
   }
 }

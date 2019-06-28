@@ -19,6 +19,16 @@ export class ComputerOverviewComponent implements OnInit {
     software: string = 'software';
     darkBlue: string = '#3BAFDA';
     lightBlue: string = '#40C0EF';
+    darkRed: string = '#DA4453';
+    lightRed: string = '#EF4A5B';
+    darkGreen: string = '#82B366';
+    lightGreen: string = '#B9E0A5';
+    darkYellow: string = '#FFD966';
+    lightYellow: string = '#FFE599';
+    darkPink: string = '#B5739D';
+    lightPink: string = '#E793B2';
+    lightOrange: string = '#FF871B';
+    darkOrange: string = '#FF6209';
 
     constructor(computerInformationsService: ComputerInformationsService) {
         this.computerInformationsService = computerInformationsService;

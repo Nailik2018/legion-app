@@ -1,8 +1,8 @@
 <div class="card-component">
-    <div class="card-component-header">
+    <div class="card-component-header" [style.background]="classDark">
         <img draggable="false" [src]="image">
     </div>
-    <div class="card-component-footer">
+    <div class="card-component-footer" [style.background]="classLight">
         <ul *ngIf="type === 'cpu'">
             <li>{{ 'card-component.cpu' | translate }}: {{ info1 | slice: 0:15 }}</li>
             <li>{{ 'card-component.core' | translate }}: {{ info2 }} </li>
@@ -32,9 +32,9 @@
             <li>{{ 'card-component.ipAddress' | translate }} (WLAN): {{ info3 }} </li>
         </ul>
         <ul *ngIf="type === 'software'">
-            <li>Xaxada Version: {{ info1 }}</li>
+            <li>xaxada Version: {{ info1 }}</li>
             <li>PHP Version: {{ info2 }}</li>
-            <li>Datenbank : {{ info3 }} Version {{ info4 }}</li>
+            <li>{{ 'card-component.database' | translate }} : {{ info3 }} Version {{ info4 }}</li>
             <li>Webserver: {{ info5 }} Version {{ info6 }}</li>
         </ul>
     </div>
