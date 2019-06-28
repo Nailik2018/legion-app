@@ -31,6 +31,11 @@
             <li>{{ 'card-component.ipAddress' | translate }} (LAN): {{ info2 }} </li>
             <li>{{ 'card-component.ipAddress' | translate }} (WLAN): {{ info3 }} </li>
         </ul>
+        <ul *ngIf="type === 'software'">
+            <li>Xaxada Version: {{ info1 }}</li>
+            <li>PHP Version: {{ info2 }}</li>
+            <li>Datenbank : {{ info3 }} Version {{ info4 }}</li>
+            <li>Webserver: {{ info5 }} Version {{ info6 }}</li>
         </ul>
     </div>
 </div>

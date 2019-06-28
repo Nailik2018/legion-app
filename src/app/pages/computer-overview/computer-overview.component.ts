@@ -16,6 +16,7 @@ export class ComputerOverviewComponent implements OnInit {
     storage: string = 'storage';
     system: string = 'system';
     network: string = 'network';
+    software: string = 'software';
     darkBlue: string = '#3BAFDA';
     lightBlue: string = '#40C0EF';
 

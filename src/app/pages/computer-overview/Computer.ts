@@ -19,10 +19,16 @@ export class Computer {
         ssid: string;
         lanIpAddress: string;
         wlanIpAddress: string;
+        phpVersion: string;
+        databaseTyp: string;
+        databaseVersion: string;
+        webserverTyp: string;
+        webserverVersion: string;
     }
     cpuSVG: string;
     ramSVG: string;
     storageSVG: string;
     systemSVG: string;
     networkSVG: string;
+    softwareSVG: string;
 }

@@ -15,8 +15,8 @@ export class CardComponent implements OnInit {
     @Input('info4') info4?: string;
     @Input('info5') info5?: string;
     @Input('info6') info6?: string;
-    @Input('classDark') classDark?: any;
-    @Input('classLight') classLight?: any;
+    @Input('classDark') classDark?: string;
+    @Input('classLight') classLight?: string;
 
     constructor() {
     }
