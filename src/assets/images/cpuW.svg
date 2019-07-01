@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="264.58334mm"
+   height="264.58334mm"
+   viewBox="0 0 264.58334 264.58334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="cpu.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="697.14288"
+     inkscape:cy="365.71429"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="4791"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(223.76191,18.988096)">
+    <g
+       id="surface1"
+       transform="matrix(0.35277778,0,0,0.35277778,-223.76191,-18.988096)"
+       style="fill:#fffffd;fill-opacity:1">
+      <path
+         id="path815"
+         style="fill:#fffffd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 637.5,71.0625 V 0 h -25 v 63.5 c -4.14063,-0.632812 -8.3125,-0.960938 -12.5,-1 H 575 V 0 H 550 V 62.5 H 512.5 V 0 h -25 V 62.5 H 450 V 0 H 425 V 62.5 H 387.5 V 0 h -25 V 62.5 H 325 V 0 H 300 V 62.5 H 262.5 V 0 h -25 V 62.5 H 200 V 0 h -25 v 62.5 h -25 c -4.1875,0.03906 -8.35938,0.367188 -12.5,1 V 0 h -25 V 71.0625 C 94.355469,79.730469 79.730469,94.355469 71.0625,112.5 H 0 v 25 h 63.5 c -0.632812,4.14062 -0.960938,8.3125 -1,12.5 v 25 H 0 v 25 h 62.5 v 37.5 H 0 v 25 H 62.5 V 300 H 0 v 25 h 62.5 v 37.5 H 0 v 25 H 62.5 V 425 H 0 v 25 h 62.5 v 37.5 H 0 v 25 H 62.5 V 550 H 0 v 25 h 62.5 v 25 c 0.03906,4.1875 0.367188,8.35937 1,12.5 H 0 v 25 h 71.0625 c 8.667969,18.14453 23.292969,32.76953 41.4375,41.4375 V 750 h 25 v -63.5 c 4.14062,0.63281 8.3125,0.96094 12.5,1 h 25 V 750 h 25 v -62.5 h 37.5 V 750 h 25 V 687.5 H 300 V 750 h 25 v -62.5 h 37.5 V 750 h 25 V 687.5 H 425 V 750 h 25 v -62.5 h 37.5 V 750 h 25 V 687.5 H 550 V 750 h 25 v -62.5 h 25 c 4.1875,-0.0391 8.35937,-0.36719 12.5,-1 V 750 h 25 v -71.0625 c 18.14453,-8.66797 32.76953,-23.29297 41.4375,-41.4375 H 750 v -25 h -63.5 c 0.63281,-4.14063 0.96094,-8.3125 1,-12.5 V 575 H 750 V 550 H 687.5 V 512.5 H 750 v -25 H 687.5 V 450 H 750 V 425 H 687.5 V 387.5 H 750 v -25 H 687.5 V 325 H 750 V 300 H 687.5 V 262.5 H 750 v -25 H 687.5 V 200 H 750 v -25 h -62.5 v -25 c -0.0391,-4.1875 -0.36719,-8.35938 -1,-12.5 H 750 v -25 H 678.9375 C 670.26953,94.355469 655.64453,79.730469 637.5,71.0625 Z M 662.5,600 c -0.043,34.5 -28,62.45703 -62.5,62.5 H 150 C 115.5,662.457 87.542969,634.5 87.5,600 V 150 c 0.04297,-34.5 28,-62.457031 62.5,-62.5 h 450 c 34.5,0.04297 62.45703,28 62.5,62.5 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path817"
+         style="fill:#fffffd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 587.5,125 h -425 c -20.70703,0 -37.5,16.79297 -37.5,37.5 v 425 c 0,20.70703 16.79297,37.5 37.5,37.5 h 425 c 20.70703,0 37.5,-16.79297 37.5,-37.5 v -425 C 625,141.79297 608.20703,125 587.5,125 Z M 600,587.5 c 0,6.90625 -5.59375,12.5 -12.5,12.5 h -425 c -6.90625,0 -12.5,-5.59375 -12.5,-12.5 v -425 c 0,-6.90625 5.59375,-12.5 12.5,-12.5 h 425 c 6.90625,0 12.5,5.59375 12.5,12.5 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path819"
+         style="fill:#fffffd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 550,175 h 25 v 25 h -25 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path821"
+         style="fill:#fffffd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 175,550 h 25 v 25 h -25 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path823"
+         style="fill:#fffffd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 175,200 v 37.5 h 25 V 200 h 37.5 V 175 H 200 c -13.80859,0 -25,11.19141 -25,25 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path825"
+         style="fill:#fffffd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 550,550 h -37.5 v 25 H 575 v -62.5 h -25 z m 0,0"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

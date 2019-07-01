@@ -5,5 +5,6 @@ export const environment = {
     production: true,
     baseUrl: baseUrl,
     ajaxUrl: baseUrl + 'ajax/',
-    translate: baseUrl + '/assets/i18n/'
+    translate: baseUrl + 'dist/assets/i18n/',
+    images: baseUrl  + 'dist/assets/images/'
 };
