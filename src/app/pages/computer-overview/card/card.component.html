@@ -16,10 +16,10 @@
             <li>{{ 'card-component.ramUsed' | translate }}: {{ (100 * info2 / (info1 )) | number:'1.1-1' }} %</li>
         </ul>
         <ul *ngIf="type === 'storage'">
-            <li>{{ 'card-component.hardDisk' | translate }}: {{ info1 / 1000000000 }} GB</li>
-            <li>{{ 'card-component.hardDiskUsed' | translate }}: {{info2 / 1000000000 }} GB </li>
-            <li>{{ 'card-component.hardDiskFree' | translate }}: {{ info3 / 1000000000 }} GB </li>
-            <li>{{ 'card-component.hardDiskUsed' | translate }}: {{ (100 * info2 / (info1 )) | number:'1.1-1' }} %</li>
+            <li>{{ 'card-component.storage' | translate }}: {{ info1 / 1000000000 | number:'1.1-2'}} GB</li>
+            <li>{{ 'card-component.storageUsed' | translate }}: {{info2 / 1000000000 | number:'1.1-2'}} GB </li>
+            <li>{{ 'card-component.storageFree' | translate }}: {{ info3 / 1000000000 | number:'1.1-2'}} GB </li>
+            <li>{{ 'card-component.storageUsed' | translate }}: {{ (100 * info2 / (info1 )) | number:'1.1-1' }} %</li>
         </ul>
         <ul *ngIf="type === 'system'" class="system">
             <li>{{ 'card-component.operatingSystem' | translate }}: {{ info1 }}</li>
