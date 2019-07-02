@@ -24,6 +24,7 @@ export class Computer {
         databaseVersion: string;
         webserverTyp: string;
         webserverVersion: string;
+        lastUpdateTime: string;
     }
     cpuSVG: string;
     ramSVG: string;

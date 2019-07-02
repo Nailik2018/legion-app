@@ -2,17 +2,19 @@
   width: 960px;
 }
 
-.row{
-  //background: #C8C8C8;
-}
-
 .col-lg-12{
   padding-left: 0;
   margin: 0;
 }
 
 @media screen and (max-width: 992px) {
-  .card-component-header{
-    background: red;
+  .container{
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    width: 400px;
   }
 }
