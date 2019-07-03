@@ -1,10 +1,10 @@
 {
-  "navi": {
+  "navi-component": {
     "raspberry-overview": "Raspberry-Übersicht",
     "sensor-overview": "Sensor-Übersicht",
     "computer-overview": "Computer-Übersicht"
   },
-  "raspberry-overview": {
+  "raspberry-overview-component": {
     "yourModelIsA": "Ihr Model ist ein",
     "currentValue": "Aktueller Wert",
     "information": "Information über",
@@ -22,7 +22,7 @@
     "storageUsed": "Belegter Festplattenspeicher",
     "numberOfCores" : "vier"
   },
-  "sensor-overview": {
+  "sensor-overview-component": {
     "title": "sensors-overview arbeitet"
   },
   "card-component": {
@@ -42,5 +42,8 @@
     "ssid": "SSID",
     "ipAddress": "IP Adresse",
     "database": "Datenbank"
+  },
+  "computer-overview-component": {
+    "lastentry": "Letzter Eintrag wurde erstellt um"
   }
 }

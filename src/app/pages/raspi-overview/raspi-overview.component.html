@@ -1,7 +1,7 @@
 <br>
 <div class="row" *ngIf="raspberryPi">
     <div class="col-10 centrierer">
-        <h1><strong>{{ 'raspberry-overview.yourModelIsA' | translate }} {{ raspberryPi?.model }}</strong></h1>
+        <h1><strong>{{ 'raspberry-overview-component.yourModelIsA' | translate }} {{ raspberryPi?.model }}</strong></h1>
     </div>
 </div>
 <div class="row" *ngIf="raspberryPi">
@@ -9,57 +9,57 @@
         <table class="table table-striped" *ngIf="raspberryPi">
             <thead>
             <tr class="table-head-raspberry-information-table">
-                <th scope="col">{{ 'raspberry-overview.information' | translate }}</th>
-                <th scope="col">{{ 'raspberry-overview.currentValue' | translate }}</th>
+                <th scope="col">{{ 'raspberry-overview-component.information' | translate }}</th>
+                <th scope="col">{{ 'raspberry-overview-component.currentValue' | translate }}</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <th scope="row" class="table-row-size">{{ 'raspberry-overview.cpuTemperatur' | translate }}:</th>
+                <th scope="row" class="table-row-size">{{ 'raspberry-overview-component.cpuTemperatur' | translate }}:</th>
                 <td class="table-row-size">{{ raspberryPi.cpuTemperature }}°C</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.cpuModel' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.cpuModel' | translate }}:</th>
                 <td>{{ raspberryPi.cpuModel }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.cores' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.cores' | translate }}:</th>
                 <td>{{ raspberryPi.numberOfCores | translate }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.currentFrequence' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.currentFrequence' | translate }}:</th>
                 <td>{{ raspberryPi.currentFrequence }} {{ raspberryPi.mhz }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.maxFrequence' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.maxFrequence' | translate }}:</th>
                 <td>{{ raspberryPi.maxFrequence }} {{ raspberryPi.mhz }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.minFrequence' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.minFrequence' | translate }}:</th>
                 <td>{{ raspberryPi.minFrequence }} {{ raspberryPi.mhz }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.ramTotal' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.ramTotal' | translate }}:</th>
                 <td>{{ raspberryPi.ramTotal }} {{ raspberryPi.mb }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.ramFree' | translate}}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.ramFree' | translate}}:</th>
                 <td>{{ raspberryPi.ramFree }} {{ raspberryPi.mb }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.ramUsed' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.ramUsed' | translate }}:</th>
                 <td>{{ raspberryPi.ramUsed }} {{ raspberryPi.mb }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.storageTotal' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.storageTotal' | translate }}:</th>
                 <td>{{ raspberryPi.storageTotal }} {{ raspberryPi.gb }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.storageUsed' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.storageUsed' | translate }}:</th>
                 <td>{{ raspberryPi.storageUsed }} {{ raspberryPi.gb }}</td>
             </tr>
             <tr>
-                <th scope="row">{{ 'raspberry-overview.storageFree' | translate }}:</th>
+                <th scope="row">{{ 'raspberry-overview-component.storageFree' | translate }}:</th>
                 <td>{{ raspberryPi.storageFree }} {{ raspberryPi.gb }}</td>
             </tr>
             </tbody>

@@ -1,14 +1,14 @@
 {
-  "navi": {
+  "navi-component": {
     "raspberry-overview": "Raspberry-Overview",
     "sensor-overview": "Sensor-Overview",
     "computer-overview": "Computer-Overview"
   },
-  "raspberry-overview": {
+  "raspberry-overview-component": {
     "yourModelIsA": "Your Model is a",
     "currentValue": "Current Value",
     "information": "Information about",
-    "cpuTemperatur" : "CPU temperature",
+    "cpuTemperatur": "CPU temperature",
     "cpuModel": "CPU Model",
     "cores": "Number of cores",
     "currentFrequence": "Current frequence",
@@ -20,11 +20,9 @@
     "storageTotal": "Totally Storage",
     "storageFree": "Free Storage",
     "storageUsed": "Used Storage",
-    "numberOfCores" : "four"
-
-
+    "numberOfCores": "four"
   },
-  "sensor-overview": {
+  "sensor-overview-component": {
     "title": "sensors-overview works"
   },
   "card-component": {
@@ -44,5 +42,8 @@
     "ssid": "SSID",
     "ipAddress": "IP Address",
     "database": "Database"
+  },
+  "computer-overview-component": {
+    "lastentry": "Last entry was created to"
   }
 }
