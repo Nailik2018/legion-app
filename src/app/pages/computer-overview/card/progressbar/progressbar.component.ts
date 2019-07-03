@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
     selector: 'app-progressbar',
@@ -7,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProgressbarComponent implements OnInit {
 
+    @Input("usedRamProcent") usedRamProcent;
+
+    procent: number;
+    widthProcent: string;
+
     constructor() {
     }
 
     ngOnInit() {
+        this.procent = this.usedRamProcent;
+        this.widthProcent = this.usedRamProcent + '%';
     }
-
 }

@@ -7,7 +7,7 @@ import { AppRoutingModule} from "../../app-routing.module";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { FormsModule } from "@angular/forms";
-import {HttpLoaderFactory} from "../../app.module";
+import { HttpLoaderFactory } from "../../app.module";
 import { ProgressbarComponent } from './card/progressbar/progressbar.component';
 
 @NgModule({
