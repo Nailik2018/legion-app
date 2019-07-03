@@ -19,6 +19,19 @@
   height: 40%;
 }
 
+.progressbar-title, .progressbar-component{
+  float: left;
+  height: 100%;
+}
+
+.progressbar-component{
+  width: 70%;
+}
+
+.progressbar-title{
+  width: 29%;
+}
+
 img{
   margin-left: 75px;
   margin-top: 35px;
