@@ -30,6 +30,8 @@ export class ComputerOverviewComponent implements OnInit {
     lightPink: string = '#E793B2';
     lightOrange: string = '#FF871B';
     darkOrange: string = '#FF6209';
+    lightCyan: string = '#0097A7';
+    darkCyan: string = '#138496';
     cpuSVG: string = environment.images + 'cpu.svg';
     ramSVG: string = environment.images + 'ram.svg';
     storageSVG: string = environment.images + 'storage.svg';

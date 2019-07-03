@@ -1,12 +1,12 @@
 <div class="container">
-    <h1>{{ 'computer-overview-component.lastentry' | translate }}: {{ computer?.computerInformations.lastUpdateTime | date: 'hh:mm dd.MM.yyyy'}} erstellt</h1>
+    <h1>{{ 'computer-overview-component.lastentry' | translate }} {{ computer?.computerInformations.lastUpdateTime | date: 'hh:mm dd.MM.yyyy'}}</h1>
     <div class="row">
-        <div class=".col-12 col-lg-12">
-            <app-card [classLight]="lightYellow" [classDark]="darkYellow" [svgImage]="cpuSVG" [type]="cpu" [info1]="computer?.computerInformations.cpuModel" [info2]="computer?.computerInformations.cpuCores" [info3]="computer?.computerInformations.cpuTemperature" [info4]="computer?.computerInformations.cpuCurrentFrequence" [info5]="computer?.computerInformations.cpuMaxFrequence" [info6]="computer?.computerInformations.cpuMinFrequence"></app-card>
-            <app-card [classLight]="lightOrange" [classDark]="darkOrange" [svgImage]="ramSVG" [type]="ram" [info1]="computer?.computerInformations.ramTotal" [info2]="computer?.computerInformations.ramUsed" [info3]="computer?.computerInformations.ramFree"></app-card>
-            <app-card [classLight]="lightRed" [classDark]="darkRed" [svgImage]="storageSVG" [type]="storage" [info1]="computer?.computerInformations?.storageTotal" [info2]="computer?.computerInformations.storageUsed" [info3]="computer?.computerInformations.storageFree"></app-card>
-            <app-card [classLight]="lightPink" [classDark]="darkPink" [svgImage]="systemSVG" [type]="system" [info1]="computer?.computerInformations?.operatingSystem" [info2]="computer?.computerInformations.lanMacAddress" [info3]="computer?.computerInformations.wlanMacAddress"></app-card>
-            <app-card [classLight]="lightBlue" [classDark]="darkBlue" [svgImage]="networkSVG" [type]="network" [info1]="computer?.computerInformations?.ssid" [info2]="computer?.computerInformations.lanIpAddress" [info3]="computer?.computerInformations.wlanIpAddress"></app-card>
+        <div class="col-12 col-lg-12">
+            <app-card [classLight]="lightCyan" [classDark]="darkCyan" [svgImage]="cpuSVG" [type]="cpu" [info1]="computer?.computerInformations.cpuModel" [info2]="computer?.computerInformations.cpuCores" [info3]="computer?.computerInformations.cpuTemperature" [info4]="computer?.computerInformations.cpuCurrentFrequence" [info5]="computer?.computerInformations.cpuMaxFrequence" [info6]="computer?.computerInformations.cpuMinFrequence"></app-card>
+            <app-card [classLight]="lightCyan" [classDark]="darkCyan" [svgImage]="ramSVG" [type]="ram" [info1]="computer?.computerInformations.ramTotal" [info2]="computer?.computerInformations.ramUsed" [info3]="computer?.computerInformations.ramFree"></app-card>
+            <app-card [classLight]="lightCyan" [classDark]="darkCyan" [svgImage]="storageSVG" [type]="storage" [info1]="computer?.computerInformations?.storageTotal" [info2]="computer?.computerInformations.storageUsed" [info3]="computer?.computerInformations.storageFree"></app-card>
+            <app-card [classLight]="lightCyan" [classDark]="darkCyan" [svgImage]="systemSVG" [type]="system" [info1]="computer?.computerInformations?.operatingSystem" [info2]="computer?.computerInformations.lanMacAddress" [info3]="computer?.computerInformations.wlanMacAddress"></app-card>
+            <app-card [classLight]="lightCyan" [classDark]="darkCyan" [svgImage]="networkSVG" [type]="network" [info1]="computer?.computerInformations?.ssid" [info2]="computer?.computerInformations.lanIpAddress" [info3]="computer?.computerInformations.wlanIpAddress"></app-card>
         </div>
     </div>
 </div>
