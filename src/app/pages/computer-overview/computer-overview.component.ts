@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ComputerInformationsService } from '../../../services/computer-informations.service';
 import { Computer } from './Computer';
-import {environment} from "../../../environments/environment";
+import { environment } from "../../../environments/environment";
 
 @Component({
     selector: 'app-computer-overview',
