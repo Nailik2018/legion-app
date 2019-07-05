@@ -1,4 +1,3 @@
-
 .card-component{
   width: 300px;
   height: 400px;
@@ -19,17 +18,20 @@
   height: 40%;
 }
 
-.progressbar-title, .progressbar-component{
+.progressbar-self{
   float: left;
+  width: 70%;
+  height: 22px;
+}
+
+.container-progressbar-li{
+  width: 100%;
   height: 100%;
 }
 
-.progressbar-component{
-  width: 70%;
-}
-
 .progressbar-title{
-  width: 29%;
+  float: left;
+  width: 30%;
 }
 
 img{

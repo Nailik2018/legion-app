@@ -41,7 +41,8 @@
     "macAddress": "MAC Address",
     "ssid": "SSID",
     "ipAddress": "IP Address",
-    "database": "Database"
+    "database": "Database",
+    "used": "Used"
   },
   "computer-overview-component": {
     "lastentry": "Last entry was created to"

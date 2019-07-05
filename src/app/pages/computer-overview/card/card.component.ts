@@ -18,22 +18,26 @@ export class CardComponent implements OnInit {
     @Input('classDark') classDark?;
     @Input('classLight') classLight?;
     usedRamProcent: number;
+    usedStorageProcent: number;
 
     constructor() {
     }
 
     ngOnInit() {
-        this.fillProgressbarRam(this.type, this.info1, this.info2);
+        this.fillProgressbar(this.type, this.info1, this.info2);
     }
 
-    fillProgressbarRam(type: string, info1, info2): void{
+    fillProgressbar(type: string, info1, info2): void{
 
-
-        if(this.type === 'ram'){
-            this.usedRamProcent = Math.round( 10 * (100 * info2 / (info1 ))) / 10;
-            console.log(this.usedRamProcent);
-            console.log(typeof this.usedRamProcent);
-            console.log(type);
+        switch(type){
+            case 'ram':
+                this.usedRamProcent = Math.round( 10 * (100 * info2 / (info1 ))) / 10;
+                break;
+            case 'storage':
+                this.usedStorageProcent = Math.round( 10 * (100 * info2 / (info1 ))) / 10;
+                break;
+            default:
+                break;
         }
     }
 }

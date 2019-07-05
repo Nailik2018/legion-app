@@ -41,7 +41,8 @@
     "macAddress": "MAC Adresse",
     "ssid": "SSID",
     "ipAddress": "IP Adresse",
-    "database": "Datenbank"
+    "database": "Datenbank",
+    "used": "Belegt"
   },
   "computer-overview-component": {
     "lastentry": "Letzter Eintrag wurde erstellt um"
