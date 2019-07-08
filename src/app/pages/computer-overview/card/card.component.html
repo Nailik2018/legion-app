@@ -6,7 +6,7 @@
         <ul *ngIf="type === 'cpu'">
             <li>{{ 'card-component.cpu' | translate }}: {{ info1 | slice: 0:15 }}</li>
             <li>{{ 'card-component.core' | translate }}: {{ info2 }} </li>
-            <li>{{ 'card-component.cpuTemperature' | translate }}: {{ info3 }}</li>
+            <li>{{ 'card-component.cpuTemperature' | translate }}: {{ info3 }}°C</li>
             <li>{{ 'card-component.cpuCurrentFrequence' | translate }}: {{ info4 / 1000000 }} MHz</li>
             <li>{{ 'card-component.cpuMaxFrequence' | translate }}: {{ info5 / 1000000 }} MHz</li>
             <li>{{ 'card-component.cpuMinFrequence' | translate }}: {{ info6 / 1000000 }} MHz</li>
