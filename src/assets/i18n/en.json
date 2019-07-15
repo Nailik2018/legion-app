@@ -1,8 +1,11 @@
 {
-  "navi-component": {
+  "navbar-component": {
     "raspberry-overview": "Raspberry-Overview",
     "sensor-overview": "Sensor-Overview",
-    "computer-overview": "Computer-Overview"
+    "computer-overview": "Computer-Overview",
+    "linked-list-overview": "Linked-list-Overview",
+    "search": "Search",
+    "searchInput": "Search..."
   },
   "raspberry-overview-component": {
     "yourModelIsA": "Your Model is a",

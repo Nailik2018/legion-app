@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { environment } from '../environments/environment';
 import { ComputerOverviewModule } from './pages/computer-overview/computer-overview.module';
 import { APP_BASE_HREF } from '@angular/common';
+import { LinkedListOverviewModule } from './pages/linked-list-overview/linked-list-overview.module';
 
 var meineUrl = '';
 
@@ -41,7 +42,8 @@ if(window.location.hostname === 'localhost'){
             }
         }),
         FormsModule,
-        ComputerOverviewModule
+        ComputerOverviewModule,
+        LinkedListOverviewModule
     ],
     providers: [
         {provide: APP_BASE_HREF, useValue: meineUrl}

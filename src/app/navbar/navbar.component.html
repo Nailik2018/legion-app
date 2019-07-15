@@ -6,19 +6,28 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" routerLink="/raspberry-overview">{{ 'navi-component.raspberry-overview' | translate }}<span
+            <a class="nav-item nav-link active" routerLink="/raspberry-overview">{{ 'navbar-component.raspberry-overview' | translate }}<span
                     class="sr-only">(current)</span></a>
         </div>
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" routerLink="/sensors-overview">{{ 'navi-component.sensor-overview' | translate }}<span
+            <a class="nav-item nav-link active" routerLink="/sensors-overview">{{ 'navbar-component.sensor-overview' | translate }}<span
                     class="sr-only">(current)</span></a>
         </div>
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" routerLink="/computer-overview">{{ 'navi-component.computer-overview' | translate }}<span
+            <a class="nav-item nav-link active" routerLink="/computer-overview">{{ 'navbar-component.computer-overview' | translate }}<span
+                    class="sr-only">(current)</span></a>
+        </div>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" routerLink="/linked-list-overview">{{ 'navbar-component.linked-list-overview' | translate }}<span
                     class="sr-only">(current)</span></a>
         </div>
     </div>
-    <button class="btn btn-info" (click)="useLanguage('en')">en</button>&nbsp;
-    <button class="btn btn-info" (click)="useLanguage('de')">de</button>
+    <div>
+        <button class="btn btn-info" (click)="useLanguage('en')">en</button>&nbsp;
+        <button class="btn btn-info" (click)="useLanguage('de')">de</button>&nbsp;
+    </div>&nbsp;
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" [placeholder]="'navbar-component.searchInput' | translate" aria-label="Search">
+        <button class="btn btn-info my-2 my-sm-0" type="submit">{{ 'navbar-component.search' | translate}}</button>
+    </form>
 </nav>
-
